@@ -1,0 +1,6 @@
+.env
+env.sh
+.pyc
+*.iml
+.directory
+.idea
