@@ -54,7 +54,7 @@ auth0 = oauth.register(
     client_kwargs={
         'connection': 'google-oauth2',
         'scope': 'openid profile https://www.googleapis.com/auth/devstorage.full_control',
-        'connection_scope': ['https://www.googleapis.com/auth/devstorage.full_control', 'https://www.googleapis.com/auth/compute'],
+        'connection_scope': 'https://www.googleapis.com/auth/devstorage.full_control',
     },
 )
 #         'scope': 'openid email profile https://www.googleapis.com/auth/cloud-platform',
